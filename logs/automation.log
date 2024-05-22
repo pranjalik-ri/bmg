@@ -1,0 +1,27 @@
+16:28:59.648 [main] INFO  testCases.TC_001_LoginTest - ****** Starting TC_001_LoginTest **** 
+16:29:00.064 [main] INFO  testCases.TC_001_LoginTest - Clicked on login
+16:29:02.768 [main] INFO  testCases.TC_001_LoginTest - Enter mobile no
+16:29:03.042 [main] INFO  testCases.TC_001_LoginTest - Clicked on continue
+16:29:05.163 [main] INFO  testCases.TC_001_LoginTest - Enter otp no
+16:29:05.246 [main] INFO  testCases.TC_001_LoginTest - Clicked on continue
+16:29:07.296 [main] INFO  testCases.TC_001_LoginTest - validating expected message
+16:29:07.300 [main] INFO  testCases.TC_001_LoginTest - *****Finished TC_001_LoginTest*****
+16:40:16.990 [main] INFO  testCases.TC_001_LoginTest - ****** Starting TC_001_LoginTest **** 
+16:40:17.311 [main] INFO  testCases.TC_001_LoginTest - Clicked on login
+16:40:19.469 [main] INFO  testCases.TC_001_LoginTest - Enter mobile no
+16:40:19.557 [main] INFO  testCases.TC_001_LoginTest - Clicked on continue
+16:40:21.699 [main] INFO  testCases.TC_001_LoginTest - Enter otp no
+16:40:21.808 [main] INFO  testCases.TC_001_LoginTest - Clicked on continue
+16:40:23.879 [main] INFO  testCases.TC_001_LoginTest - validating expected message
+16:40:23.879 [main] INFO  testCases.TC_001_LoginTest - test passed
+16:40:23.883 [main] INFO  testCases.TC_001_LoginTest - *****Finished TC_001_LoginTest*****
+16:50:03.390 [main] INFO  testCases.TC_001_LoginTest - ****** Starting TC_001_LoginTest **** 
+16:50:03.404 [main] DEBUG testCases.TC_001_LoginTest - application logs
+16:50:03.668 [main] INFO  testCases.TC_001_LoginTest - Clicked on login
+16:50:05.877 [main] INFO  testCases.TC_001_LoginTest - Enter mobile no
+16:50:06.039 [main] INFO  testCases.TC_001_LoginTest - Clicked on continue
+16:50:08.195 [main] INFO  testCases.TC_001_LoginTest - Enter otp no
+16:50:08.295 [main] INFO  testCases.TC_001_LoginTest - Clicked on continue
+16:50:10.355 [main] INFO  testCases.TC_001_LoginTest - validating expected message
+16:50:10.355 [main] INFO  testCases.TC_001_LoginTest - test passed
+16:50:10.358 [main] INFO  testCases.TC_001_LoginTest - *****Finished TC_001_LoginTest*****
