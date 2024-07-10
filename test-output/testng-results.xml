@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-27T22:11:00 IST" name="Suite" finished-at="2024-05-27T22:11:31 IST" duration-ms="30911">
+  <suite started-at="2024-07-10T12:27:02 IST" name="Suite" finished-at="2024-07-10T12:31:37 IST" duration-ms="274632">
     <groups>
       <group name="sanity">
-        <method signature="TC_001_LoginTest.verify_login_page()[pri:0, instance:testCases.TC_001_LoginTest@268f106e]" name="verify_login_page" class="testCases.TC_001_LoginTest"/>
+        <method signature="TC_001_LoginTest.verify_login_page()[pri:0, instance:testCases.TC_001_LoginTest@59402b8f]" name="verify_login_page" class="testCases.TC_001_LoginTest"/>
+        <method signature="TC_002_BookNowTest.booknowtest()[pri:0, instance:testCases.TC_002_BookNowTest@4082ba93]" name="booknowtest" class="testCases.TC_002_BookNowTest"/>
+        <method signature="TC_004_BookCarTest.verify_BookCarTestpage()[pri:0, instance:testCases.TC_004_BookCarTest@17fc391b]" name="verify_BookCarTestpage" class="testCases.TC_004_BookCarTest"/>
+        <method signature="TC_005_AddToCartTest.verify_Addtocarttest()[pri:0, instance:testCases.TC_005_AddToCartTest@2b30a42c]" name="verify_Addtocarttest" class="testCases.TC_005_AddToCartTest"/>
+        <method signature="TC_006_CheckoutPage.verify_checkoutpage()[pri:0, instance:testCases.TC_006_CheckoutPage@609e8838]" name="verify_checkoutpage" class="testCases.TC_006_CheckoutPage"/>
       </group> <!-- sanity -->
       <group name="testng">
-        <method signature="TC_001_LoginTest.verify_login_page()[pri:0, instance:testCases.TC_001_LoginTest@268f106e]" name="verify_login_page" class="testCases.TC_001_LoginTest"/>
+        <method signature="TC_001_LoginTest.verify_login_page()[pri:0, instance:testCases.TC_001_LoginTest@59402b8f]" name="verify_login_page" class="testCases.TC_001_LoginTest"/>
+        <method signature="TC_002_BookNowTest.booknowtest()[pri:0, instance:testCases.TC_002_BookNowTest@4082ba93]" name="booknowtest" class="testCases.TC_002_BookNowTest"/>
+        <method signature="TC_004_BookCarTest.verify_BookCarTestpage()[pri:0, instance:testCases.TC_004_BookCarTest@17fc391b]" name="verify_BookCarTestpage" class="testCases.TC_004_BookCarTest"/>
+        <method signature="TC_005_AddToCartTest.verify_Addtocarttest()[pri:0, instance:testCases.TC_005_AddToCartTest@2b30a42c]" name="verify_Addtocarttest" class="testCases.TC_005_AddToCartTest"/>
+        <method signature="TC_006_CheckoutPage.verify_checkoutpage()[pri:0, instance:testCases.TC_006_CheckoutPage@609e8838]" name="verify_checkoutpage" class="testCases.TC_006_CheckoutPage"/>
       </group> <!-- testng -->
     </groups>
-    <test started-at="2024-05-27T22:11:00 IST" name="Test" finished-at="2024-05-27T22:11:31 IST" duration-ms="30911">
+    <test started-at="2024-07-10T12:27:02 IST" name="Test" finished-at="2024-07-10T12:31:37 IST" duration-ms="274632">
       <class name="testCases.TC_001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_LoginTest@268f106e]" started-at="2024-05-27T22:11:00 IST" name="setup" finished-at="2024-05-27T22:11:23 IST" duration-ms="22995" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_LoginTest@59402b8f]" started-at="2024-07-10T12:27:03 IST" name="setup" finished-at="2024-07-10T12:27:28 IST" duration-ms="24707" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +37,305 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login_page()[pri:0, instance:testCases.TC_001_LoginTest@268f106e]" started-at="2024-05-27T22:11:23 IST" name="verify_login_page" finished-at="2024-05-27T22:11:31 IST" duration-ms="7635" status="PASS">
+        <test-method signature="verify_login_page()[pri:0, instance:testCases.TC_001_LoginTest@59402b8f]" started-at="2024-07-10T12:27:28 IST" name="verify_login_page" finished-at="2024-07-10T12:27:35 IST" duration-ms="6952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_page -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_LoginTest@268f106e]" started-at="2024-05-27T22:11:31 IST" name="tearDown" finished-at="2024-05-27T22:11:31 IST" duration-ms="205" status="PASS">
+      </class> <!-- testCases.TC_001_LoginTest -->
+      <class name="testCases.TC_004_BookCarTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_BookCarTest@17fc391b]" started-at="2024-07-10T12:28:01 IST" name="setup" finished-at="2024-07-10T12:28:21 IST" duration-ms="20810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_001_LoginTest -->
+        </test-method> <!-- setup -->
+        <test-method signature="verify_BookCarTestpage()[pri:0, instance:testCases.TC_004_BookCarTest@17fc391b]" started-at="2024-07-10T12:28:21 IST" name="verify_BookCarTestpage" finished-at="2024-07-10T12:28:28 IST" duration-ms="6940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_BookCarTestpage -->
+      </class> <!-- testCases.TC_004_BookCarTest -->
+      <class name="testCases.TC_13_PreOwnedCarDealersPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_13_PreOwnedCarDealersPageTest@19932c16]" started-at="2024-07-10T12:31:14 IST" name="setup" finished-at="2024-07-10T12:31:22 IST" duration-ms="8101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PreOwnedCarDealersPageTest()[pri:0, instance:testCases.TC_13_PreOwnedCarDealersPageTest@19932c16]" started-at="2024-07-10T12:31:22 IST" name="PreOwnedCarDealersPageTest" finished-at="2024-07-10T12:31:37 IST" duration-ms="15178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreOwnedCarDealersPageTest -->
+      </class> <!-- testCases.TC_13_PreOwnedCarDealersPageTest -->
+      <class name="testCases.TC_12_ContactUsPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_12_ContactUsPageTest@23e84203]" started-at="2024-07-10T12:30:55 IST" name="setup" finished-at="2024-07-10T12:31:04 IST" duration-ms="9122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_12_ContactUsPageTest()[pri:0, instance:testCases.TC_12_ContactUsPageTest@23e84203]" started-at="2024-07-10T12:31:04 IST" name="TC_12_ContactUsPageTest" finished-at="2024-07-10T12:31:14 IST" duration-ms="9783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_12_ContactUsPageTest -->
+      </class> <!-- testCases.TC_12_ContactUsPageTest -->
+      <class name="testCases.TC_009_BecomeServicePartnerTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_009_BecomeServicePartnerTest@6d60fe40]" started-at="2024-07-10T12:30:10 IST" name="setup" finished-at="2024-07-10T12:30:18 IST" duration-ms="7732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="becomeservicepartner()[pri:0, instance:testCases.TC_009_BecomeServicePartnerTest@6d60fe40]" started-at="2024-07-10T12:30:18 IST" name="becomeservicepartner" finished-at="2024-07-10T12:30:31 IST" duration-ms="12979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- becomeservicepartner -->
+      </class> <!-- testCases.TC_009_BecomeServicePartnerTest -->
+      <class name="testCases.TC_007_GetAllthelinksfromWebpage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_007_GetAllthelinksfromWebpage@359df09a]" started-at="2024-07-10T12:29:41 IST" name="setup" finished-at="2024-07-10T12:30:00 IST" duration-ms="18680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getallapplicationlink()[pri:0, instance:testCases.TC_007_GetAllthelinksfromWebpage@359df09a]" started-at="2024-07-10T12:30:00 IST" name="getallapplicationlink" finished-at="2024-07-10T12:30:00 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallapplicationlink -->
+      </class> <!-- testCases.TC_007_GetAllthelinksfromWebpage -->
+      <class name="testCases.TC_005_AddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_AddToCartTest@2b30a42c]" started-at="2024-07-10T12:28:28 IST" name="setup" finished-at="2024-07-10T12:28:36 IST" duration-ms="7371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Addtocarttest()[pri:0, instance:testCases.TC_005_AddToCartTest@2b30a42c]" started-at="2024-07-10T12:28:36 IST" name="verify_Addtocarttest" finished-at="2024-07-10T12:28:47 IST" duration-ms="11445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Addtocarttest -->
+      </class> <!-- testCases.TC_005_AddToCartTest -->
+      <class name="testCases.TC_002_BookNowTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_BookNowTest@4082ba93]" started-at="2024-07-10T12:27:35 IST" name="setup" finished-at="2024-07-10T12:27:43 IST" duration-ms="8217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="booknowtest()[pri:0, instance:testCases.TC_002_BookNowTest@4082ba93]" started-at="2024-07-10T12:27:43 IST" name="booknowtest" finished-at="2024-07-10T12:28:00 IST" duration-ms="17145" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Maruthi Suzuki']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3705ccd3a8aaf3ac8cee51193291721, findElement {using=xpath, value=//div[text()='Maruthi Suzuki']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\pranj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54274}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54274/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3705ccd3a8aaf3ac8cee51193291721]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Maruthi Suzuki']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3705ccd3a8aaf3ac8cee51193291721, findElement {using=xpath, value=//div[text()='Maruthi Suzuki']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\pranj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54274}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54274/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3705ccd3a8aaf3ac8cee51193291721
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+at pageObjects.BookaservicenowPage.Clickonselectcardropdown(BookaservicenowPage.java:22)
+at testCases.TC_002_BookNowTest.booknowtest(TC_002_BookNowTest.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booknowtest -->
+      </class> <!-- testCases.TC_002_BookNowTest -->
+      <class name="testCases.TC_008_ClickOnHomePageLink">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_008_ClickOnHomePageLink@43df23d3]" started-at="2024-07-10T12:30:00 IST" name="setup" finished-at="2024-07-10T12:30:10 IST" duration-ms="9549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonhomepagelink()[pri:0, instance:testCases.TC_008_ClickOnHomePageLink@43df23d3]" started-at="2024-07-10T12:30:10 IST" name="clickonhomepagelink" finished-at="2024-07-10T12:30:10 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonhomepagelink -->
+      </class> <!-- testCases.TC_008_ClickOnHomePageLink -->
+      <class name="testCases.TC_006_CheckoutPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_CheckoutPage@609e8838]" started-at="2024-07-10T12:28:47 IST" name="setup" finished-at="2024-07-10T12:29:12 IST" duration-ms="25122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_checkoutpage()[pri:0, instance:testCases.TC_006_CheckoutPage@609e8838]" started-at="2024-07-10T12:29:12 IST" name="verify_checkoutpage" finished-at="2024-07-10T12:29:41 IST" duration-ms="28497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_checkoutpage -->
+      </class> <!-- testCases.TC_006_CheckoutPage -->
+      <class name="testCases.TC_010_BecomeVendorPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_010_BecomeVendorPageTest@792b749c]" started-at="2024-07-10T12:30:31 IST" name="setup" finished-at="2024-07-10T12:30:45 IST" duration-ms="14085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_010_BecomeVendorPageTest()[pri:0, instance:testCases.TC_010_BecomeVendorPageTest@792b749c]" started-at="2024-07-10T12:30:45 IST" name="TC_010_BecomeVendorPageTest" finished-at="2024-07-10T12:30:55 IST" duration-ms="9888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_010_BecomeVendorPageTest -->
+      </class> <!-- testCases.TC_010_BecomeVendorPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

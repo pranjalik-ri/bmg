@@ -33,7 +33,7 @@ public class TC_001_LoginTest extends BaseClass
 		
 		Thread.sleep(2000);
 		LoginPage lp=new LoginPage(driver);
-		lp.enterMobileNo("9403909319");
+		lp.enterMobileNo("9403408748");
 		logger.info("Enter mobile no");
 		
 		lp.btncontinue();

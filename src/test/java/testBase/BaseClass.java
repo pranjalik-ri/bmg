@@ -1,3 +1,4 @@
+
 package testBase;
 
 import java.io.File;
@@ -52,11 +53,11 @@ public class BaseClass
 	driver.get(P.getProperty("appURL"));
 	driver.manage().window().maximize();
     }
-	@AfterClass(groups={"sanity","regression","testng"})
-	public void tearDown()
-	{
-		driver.close();
-	}
+//	@AfterClass(groups={"sanity","regression","testng"})
+//	public void tearDown()
+//	{
+//		driver.close();
+//	}
 	
 	//for capturnng the screen
 	public String captureScreen(String tname)throws IOException{
